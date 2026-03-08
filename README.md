@@ -7,7 +7,7 @@
 
 Deterministic avatar glyphs for any slug. No images, no server — pure SVG.
 
-Same input → same glyph, always.
+Same input → same glyph, always. **[Playground →](https://guild-glyph.pages.dev)**
 
 ```tsx
 import { GuildGlyph } from "guild-glyph";

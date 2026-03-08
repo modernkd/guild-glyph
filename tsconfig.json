@@ -16,5 +16,5 @@
     "allowSyntheticDefaultImports": true
   },
   "include": ["."],
-  "exclude": ["node_modules", "dist", "playground.tsx", "vite.config.ts"]
+  "exclude": ["node_modules", "dist", "playground.tsx", "vite.config.ts", "vite.playground.config.ts"]
 }

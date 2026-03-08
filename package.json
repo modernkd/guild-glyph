@@ -19,6 +19,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "vite build && tsc --emitDeclarationOnly --declaration --outDir dist",
+    "build:playground": "vite build --config vite.playground.config.ts",
     "dev": "vite",
     "prepublishOnly": "npm run build"
   },
