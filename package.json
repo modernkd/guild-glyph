@@ -1,0 +1,54 @@
+{
+  "name": "guild-glyph",
+  "version": "0.1.0",
+  "description": "Deterministic avatar glyphs for any team or app",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "vite build && tsc --emitDeclarationOnly --declaration --outDir dist",
+    "dev": "vite",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
+  },
+  "keywords": [
+    "avatar",
+    "identicon",
+    "deterministic",
+    "react",
+    "svg"
+  ],
+  "author": "kd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modernkd/guild-glyph"
+  },
+  "homepage": "https://github.com/modernkd/guild-glyph#readme",
+  "bugs": {
+    "url": "https://github.com/modernkd/guild-glyph/issues"
+  }
+}
