@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="logo.png" alt="guild-glyph" width="96" /><br />
+  <sub><code>&lt;GuildGlyph base="guild-glyph" /&gt;</code></sub>
+</p>
+
 # guild-glyph
 
 Deterministic avatar glyphs for any slug. No images, no server — pure SVG.
